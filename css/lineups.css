@@ -1,0 +1,173 @@
+
+
+/**********Header text**************/
+
+body{
+  background-color: #000;
+}
+
+.title-text{
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 0;
+  width: 50%;
+}
+
+.title-text h1{
+  background-color: #00BFFF;
+  padding: 12px 15px 10px 15px;
+  font-size: 1em;
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.1em;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px 0px 0px 0px;
+}
+
+a { text-decoration: none; color:none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+/**********Table text**************/
+
+h2{
+color: #00BFFF;
+font-size: 20px;
+padding-top: 20px;
+margin-bottom: 15px;
+text-align: center;
+line-height: 10px;
+font-weight: 400;
+}
+
+h3{
+color: #fff;
+font-size: 20px;
+padding-top: 5px;
+margin-bottom: 10px;
+text-align: center;
+line-height: 10px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+span{
+  font-weight: normal;
+  color: #00BFFF;
+}
+
+
+.total{
+  color: #00BFFF;
+    table-layout: fixed;
+    width:10%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.table-wrapper{
+  width: 100%;
+}
+
+.body_area{
+  margin: 0 auto;
+}
+
+table{
+  width: 95%;
+  margin: 0 auto;
+  font-size: 0.9em;
+}
+
+td{
+  font-weight: normal;
+  line-height: 2.5em;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.one{
+  table-layout: fixed;
+  width: 15%;
+  padding-left: 10px;
+}
+
+.two{
+    table-layout: fixed;
+    width: 80%;
+}
+
+.three{
+    table-layout: fixed;
+    width:10%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.shading{
+  background: rgb(40,40,40);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.narrow{
+  line-height: 1.6em;
+}
+
+// MEDIA QUERIES
+
+  /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+        body{
+            background-color: green;
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .body_area{
+            width: 70%;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .body_area{
+            width: 70%;
+        }
+
+        .title-text{
+          float: right;
+          text-align: right;
+          margin-top: 10px;
+          padding-top: 0;
+          width: 30%;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .body_area{
+            width: 40%;
+        }
+
+        .title-text{
+          float: right;
+          text-align: right;
+          margin-top: 10px;
+          padding-top: 0;
+          width: 40%;
+        }
+    }

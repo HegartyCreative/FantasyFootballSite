@@ -1,0 +1,173 @@
+
+/**********Header text**************/
+
+.title-text{
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 0;
+  width: 50%;
+}
+
+.title-text h1{
+  background: #00BFFF;
+  padding: 10px 15px 10px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  line-height: 1.1em;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px 0px 0px 0px;
+}
+
+/**********Results text**************/
+
+h2{
+  color: #00BFFF;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 1.4em;
+}
+
+.table-wrapper{
+max-width:  98%;
+min-height: 200px;
+margin: 0 auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+.teams a{
+  color: #00BFFF;
+  text-decoration: none;
+  display: block;
+  font-weight: 700;
+}
+
+td{
+  vertical-align: top;
+  line-height: 1.6em;
+  word-wrap: break-word;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 0.85em;
+
+}
+
+td.teams{
+  padding-bottom: 0;
+  font-weight: 700;
+}
+
+.score{
+  color: #00BFFF;
+  font-weight: 700;
+}
+
+#line{
+  color: #fff;
+}
+
+
+.one{
+  table-layout: fixed;
+  width: 49%;
+  word-wrap:break-word;
+}
+
+.two{
+    table-layout: fixed;
+    width: 1%;
+
+}
+
+.three{
+  table-layout: fixed;
+  width: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.6em;
+  padding-top: 7px;
+}
+
+.five{
+  table-layout: fixed;
+  width: 49%;
+  word-wrap:break-word;
+}
+
+span{
+  color: #00BFFF;
+}
+
+.performance{
+  padding: 10px 0px;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+
+// MEDIA QUERIES
+
+  /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+        body{
+            background-color: green;
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .body_area{
+            width: 70%;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .body_area{
+            width: 70%;
+        }
+
+        .title-text{
+          float: right;
+          text-align: right;
+          margin-top: 10px;
+          padding-top: 0;
+          width: 30%;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .body_area{
+            width: 40%;
+        }
+
+        .title-text{
+          float: right;
+          text-align: right;
+          margin-top: 10px;
+          padding-top: 0;
+          width: 30%;
+        }
+    }
+
