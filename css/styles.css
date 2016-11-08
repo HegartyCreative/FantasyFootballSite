@@ -81,6 +81,13 @@ a:hover, a:active  text-decoration: none;
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
+        .body_area, .bolder, .three, .headings td{
+          font-size: 120%;
+        }
+          .score, .year{
+          font-size: 90%;
+        }
+
 
     }
 

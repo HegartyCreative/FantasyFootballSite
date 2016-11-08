@@ -20,6 +20,20 @@ html, body {height: 100%;}
 
 /* styling */
 
+
+table {
+    border-collapse: collapse;
+}
+
+.headings td{
+  color: #00BFFF;
+  // font-size: 12px;
+}
+
+.grey{
+  background-color: rgba(255,255,255, 0.1);
+}
+
 .menu ul {
   border-top: 1px solid #fff;
   list-style: none;
@@ -40,7 +54,6 @@ html, body {height: 100%;}
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
 }
 
 .menu a:hover {
@@ -84,106 +97,100 @@ html, body {height: 100%;}
 
 /**********Header text**************/
 
+
 .title-text{
   float: right;
   text-align: right;
-    margin-top: 10px;
+  margin-top: 10px;
   padding-top: 0;
   width: 50%;
 }
 
 .title-text h1{
-  background-color: #00BFFF;
-  padding: 12px 15px 10px 15px;
+  background: #00BFFF;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 15px 10px 15px;
   font-size: 1em;
-  font-weight: 700;
-  color: #fff;
+  font-weight: bold;
+  color: white;
   line-height: 1.1em;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   text-align: center;
   border-radius: 20px 0px 0px 0px;
-
+  font-weight: bold;
 }
+
 /**********Table text**************/
 
-.table-wrapper{
-  width: 100%;
-  margin-top: 40px;
-}
 
-table{
-  width: 95%;
-  margin: 0 auto;
-  line-height: 50px;
-  font-weight: 700;
-}
-
-.center a{
-  color: #00BFFF;
-  text-decoration: none;
-  display: block;
-}
-
-.center a:hover{
-  color: #696969;
-}
-
-.center1 a{
-  color: #00BFFF;
-}
-
-
-.center{
-  border-top: 1px solid #696969;
+.body_area{
+  color: #fff;
+  padding: 0px 0px;
   text-align: center;
-  padding-top: 6px;
-  line-height: 60px;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.first{
-  table-layout: fixed;
-  width: 4%;
+.body_area h2{
+  text-align: center;
+  background-color: rgba(255,255,255, 0.2);
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 8px;
 }
 
-.second{
-  table-layout: fixed;
-  width: 86%;
-  padding: 6px 3px;
+.the_year{
+  margin: 30px 0px;
 }
 
-.third{
-  table-layout: fixed;
-  width: 10%;
+.text{
+  line-height: 30px;
 }
 
-#played{
-  color: rgb(80, 80, 80);
+.highlight{
+  color: #00BFFF;
 }
 
-.played a{
-  color: rgb(80, 80, 80);
+h3.position{
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 25px 20% 15px 20%;
+  background-color: #00BFFF;
+  padding: 5px;
 }
+
+.exSp{
+  padding-top: 10px;
+  color: #00BFFF;
+}
+
+
+// Review css
+
+p.review_text {
+  font-size: 100px;
+  color: blue;
+  background-color: blue;
+  text-align: left;
+}
+
+
 
 
 // MEDIA QUERIES
 
-  /* Custom, iPhone Retina */
-    @media only screen and (min-width : 320px) {
-        body{
-            background-color: green;
-        }
-    }
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
+        .body_area, .bolder, .three, .headings td{
+          font-size: 120%;
+        }
+
 
     }
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
-    }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
@@ -196,14 +203,14 @@ table{
           text-align: right;
           margin-top: 10px;
           padding-top: 0;
-          width: 30%;
+          width: 50%;
         }
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
         .body_area{
-            width: 60%;
+            width: 50%;
         }
 
         .title-text{
@@ -214,4 +221,5 @@ table{
           width: 30%;
         }
     }
+
 

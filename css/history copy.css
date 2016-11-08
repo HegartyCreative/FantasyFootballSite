@@ -1,0 +1,169 @@
+
+
+
+/* body */
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+}
+
+html, body {height: 100%;}
+
+/* menu */
+.menu {
+  background: #00BFFF;
+  left: -200px;
+  height: 100%;
+  position: fixed;
+  width: 160px;
+  z-index: 999;
+}
+
+/* styling */
+
+
+.menu ul {
+  border-top: 1px solid #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #fff;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+.icon-close i {
+  margin-right: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.icon-close {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+  font-size: 30px;
+  color: #00BFFF;
+}
+
+
+/**********Header text**************/
+
+.title-text{
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 0;
+  width: 50%;
+  z-index: 999;
+}
+
+.title-text h1{
+  background: #00BFFF;
+  padding: 10px 15px 10px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  line-height: 1.1em;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px 0px 0px 0px;
+  z-index: 999;
+}
+
+/**********Table text**************/
+
+table{
+width: 100%;
+color: #000000;
+margin: 0;
+padding: 0;
+
+}
+
+tr{
+  border: 2px solid red;
+}
+
+td{
+  border: 1px solid green;
+  height: 100px;
+  vertical-align: bottom;
+}
+
+.centerPos{
+  width: 5%;
+}
+
+.left{
+  width: 10%;
+}
+
+.year{
+  width: 3%;
+}
+
+.table-wrapper{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.fixit{
+  position: fixed;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 60%;
+  margin-top: -60px;
+}
+
+.moveit{
+  position: absolute;
+  top: 700px;
+  background-color: orange;
+  width: 60%;
+}
+
+table.moveit tr td{
+  height: 30px;
+}

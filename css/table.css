@@ -25,9 +25,14 @@ table {
     border-collapse: collapse;
 }
 
-.headings td{
+.headings{
   color: #dc143c;
   font-size: 12px;
+}
+
+.hist td{
+  color: #ffffff;
+ background-color: rgba(0,0,0, 0.9);
 }
 
 .grey{
@@ -116,6 +121,8 @@ table {
   text-transform: uppercase;
   text-align: center;
   border-radius: 20px 0px 0px 0px;
+  font-family: Montserrat;
+  font-weight: bold;
 }
 
 /**********Table text**************/
@@ -124,6 +131,12 @@ table {
 max-width:  95%;
 min-height: 200px;
 margin: 0 auto;
+}
+
+.table-wrapper h2{
+  color: #00BFFF;
+  text-align: center;
+  font-size: 120%;
 }
 
 td{
@@ -204,6 +217,10 @@ td.numbers {
   width: 7%;
 }
 
+#loveblue td{
+  color: #00BFFF;
+}
+
 
 
 // MEDIA QUERIES
@@ -217,7 +234,9 @@ td.numbers {
 
     /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
-
+      .headings td{
+      font-size: 85%;
+}
     }
 
     /* Small Devices, Tablets */

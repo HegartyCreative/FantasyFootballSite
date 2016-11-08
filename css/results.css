@@ -58,6 +58,7 @@ td{
   text-align: center;
   padding: 5px 0px;
   font-size: 0.85em;
+  padding-bottom: 20px;
 
 }
 
@@ -96,7 +97,7 @@ td.teams{
   color: #fff;
   font-weight: 400;
   font-size: 0.6em;
-  padding-top: 7px;
+  padding-top: 9px;
 }
 
 .five{
@@ -117,20 +118,32 @@ span{
 }
 
 
+.resultsText{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-top: 1px solid #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
+.resultsText p{
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.resultsText p:first-child{
+  padding-top: 20px;
+}
 
 
 // MEDIA QUERIES
 
   /* Custom, iPhone Retina */
-    @media only screen and (min-width : 320px) {
-        body{
-            background-color: green;
-        }
-    }
 
     /* Extra Small Devices, Phones */
-    @media only screen and (min-width : 480px) {
+    @media only screen and (max-width : 480px) {
 
     }
 
@@ -139,6 +152,7 @@ span{
         .body_area{
             width: 70%;
         }
+
     }
 
     /* Medium Devices, Desktops */
@@ -154,6 +168,7 @@ span{
           padding-top: 0;
           width: 30%;
         }
+
     }
 
     /* Large Devices, Wide Screens */
