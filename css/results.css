@@ -86,7 +86,6 @@ td.teams{
 .two{
     table-layout: fixed;
     width: 1%;
-
 }
 
 .three{
@@ -97,7 +96,8 @@ td.teams{
   color: #fff;
   font-weight: 400;
   font-size: 0.6em;
-  padding-top: 9px;
+  padding-top: 7px;
+
 }
 
 .five{
@@ -144,13 +144,19 @@ span{
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
-
+        .three{
+          padding-top: 9px;
+        }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
         .body_area{
             width: 70%;
+        }
+
+        .three{
+          padding-top: 9px;
         }
 
     }
