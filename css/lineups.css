@@ -121,6 +121,11 @@ table {
   line-height: 1.6em;
 }
 
+.str{
+  color: #00BFFF;
+  font-weight: bold;
+}
+
 // MEDIA QUERIES
 
   /* Custom, iPhone Retina */
